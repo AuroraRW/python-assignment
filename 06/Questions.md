@@ -23,12 +23,12 @@ Have main() call extract_names() for each command line arg and print a text summ
 
 The summary text should look like this for each file:
 
-2006
-Aaliyah 91
-Aaron 57
-Abagail 895
-Abbey 695
-Abbie 650
+2006  
+Aaliyah 91  
+Aaron 57  
+Abagail 895  
+Abbey 695  
+Abbie 650  
 ...
 
 Part B
@@ -39,9 +39,9 @@ Once the --summaryfile feature is working, run the program on all the files usin
 
 With the data organized into summary files, you can see patterns over time with shell commands, like this:
 
-$ grep 'Trinity ' *.summary
-$ grep 'Nick ' *.summary
-$ grep 'Miguel ' *.summary
-$ grep 'Emily ' *.summary
+$ grep 'Trinity ' *.summary  
+$ grep 'Nick ' *.summary  
+$ grep 'Miguel ' *.summary  
+$ grep 'Emily ' *.summary  
 
 Regular expression hints -- year: r'Popularity\sin\s(\d\d\d\d)' names: r'<td>(\d+)</td><td>(\w+)</td>\<td>(\w+)</td>'
