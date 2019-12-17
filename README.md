@@ -1,5 +1,6 @@
 # python-exercise
 01-03 basic knowledge of python  
+https://github.com/AuroraRW/python-exercise-01/blob/master/01/Questions.md
 04 regulation expression  
 05 class  
 06 read html, regulation expression  
