@@ -7,7 +7,8 @@ returned. In main, show how you would instantiate C1 and invoke M1 and the overl
 # Q2 
 Write a child class of C1 (from previous question) called C2. C2 relies on C1 for
 construction but introduces a new function F1 which is passed a list and returns the larger of the
-two lists. C2 also overloads M1 so that M1 can take a list of lists (i.e. − > [L1, L2, L3...]) and
+two lists. C2 also overloads M1 so that M1 can take a list of lists  
+(i.e. − > [L1, L2, L3...]) and
 returns the largest list. In main, show how you would instantiate an object of type C2 and utilize
 all methods including inherited ones.
 # Q3
